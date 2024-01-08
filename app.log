@@ -1,0 +1,66 @@
+2024-01-08T14:54:45.091+05:30  INFO 4388 --- [main] c.s.cache.SpringDataRedisApplication     : Starting SpringDataRedisApplication using Java 19.0.2 with PID 4388 (G:\Electronic_Store\cache\spring-data-redis\target\classes started by SHUBHAM KUMAR in G:\Electronic_Store\cache\spring-data-redis)
+2024-01-08T14:54:45.100+05:30  INFO 4388 --- [main] c.s.cache.SpringDataRedisApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-01-08T14:54:46.202+05:30  INFO 4388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-08T14:54:46.203+05:30  INFO 4388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-08T14:54:46.270+05:30  INFO 4388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2024-01-08T14:54:46.791+05:30  INFO 4388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-08T14:54:46.792+05:30  INFO 4388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-08T14:54:47.011+05:30  INFO 4388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 218 ms. Found 1 Redis repository interface.
+2024-01-08T14:54:48.122+05:30  INFO 4388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-01-08T14:54:48.140+05:30  INFO 4388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-08T14:54:48.140+05:30  INFO 4388 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-08T14:54:48.214+05:30  INFO 4388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-08T14:54:48.215+05:30  INFO 4388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2982 ms
+2024-01-08T14:54:50.082+05:30  INFO 4388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path ''
+2024-01-08T14:54:50.097+05:30  INFO 4388 --- [main] c.s.cache.SpringDataRedisApplication     : Started SpringDataRedisApplication in 5.886 seconds (process running for 6.77)
+2024-01-08T14:56:43.185+05:30  INFO 4388 --- [http-nio-8086-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [g_state={"i_l":0};] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-01-08T14:56:43.197+05:30  INFO 4388 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-08T14:56:43.197+05:30  INFO 4388 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-08T14:56:43.201+05:30  INFO 4388 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-01-08T14:56:43.287+05:30  INFO 4388 --- [http-nio-8086-exec-1] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::getAllCustomers() talking to DB
+2024-01-08T14:57:11.897+05:30  INFO 4388 --- [http-nio-8086-exec-5] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::getAllCustomers() talking to DB
+2024-01-08T14:57:13.831+05:30  INFO 4388 --- [http-nio-8086-exec-8] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::getAllCustomers() talking to DB
+2024-01-08T14:57:14.670+05:30  INFO 4388 --- [http-nio-8086-exec-9] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::getAllCustomers() talking to DB
+2024-01-08T15:01:40.936+05:30  INFO 18420 --- [main] c.s.cache.SpringDataRedisApplication     : Starting SpringDataRedisApplication using Java 19.0.2 with PID 18420 (G:\Electronic_Store\cache\spring-data-redis\target\classes started by SHUBHAM KUMAR in G:\Electronic_Store\cache\spring-data-redis)
+2024-01-08T15:01:41.090+05:30  INFO 18420 --- [main] c.s.cache.SpringDataRedisApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-01-08T15:01:41.831+05:30  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-08T15:01:41.832+05:30  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-08T15:01:41.870+05:30  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-01-08T15:01:42.102+05:30  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-08T15:01:42.103+05:30  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-08T15:01:42.235+05:30  INFO 18420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 1 Redis repository interface.
+2024-01-08T15:01:42.854+05:30  INFO 18420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-01-08T15:01:42.868+05:30  INFO 18420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-08T15:01:42.868+05:30  INFO 18420 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-08T15:01:42.934+05:30  INFO 18420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-08T15:01:42.934+05:30  INFO 18420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1749 ms
+2024-01-08T15:01:43.945+05:30  INFO 18420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path ''
+2024-01-08T15:01:43.954+05:30  INFO 18420 --- [main] c.s.cache.SpringDataRedisApplication     : Started SpringDataRedisApplication in 3.671 seconds (process running for 4.264)
+2024-01-08T15:01:57.034+05:30  INFO 18420 --- [http-nio-8086-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [g_state={"i_l":0};] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-01-08T15:01:57.041+05:30  INFO 18420 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-08T15:01:57.042+05:30  INFO 18420 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-08T15:01:57.043+05:30  INFO 18420 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-08T15:01:58.239+05:30  INFO 18420 --- [http-nio-8086-exec-1] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::getAllCustomers() talking to DB
+2024-01-08T15:03:49.712+05:30  INFO 18420 --- [http-nio-8086-exec-6] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::updateCustomer() talking to DB
+2024-01-08T15:04:53.830+05:30  INFO 18420 --- [http-nio-8086-exec-3] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::updateCustomer() talking to DB
+2024-01-08T15:10:00.577+05:30  INFO 19432 --- [main] c.s.cache.SpringDataRedisApplication     : Starting SpringDataRedisApplication using Java 19.0.2 with PID 19432 (G:\Electronic_Store\cache\spring-data-redis\target\classes started by SHUBHAM KUMAR in G:\Electronic_Store\cache\spring-data-redis)
+2024-01-08T15:10:00.581+05:30  INFO 19432 --- [main] c.s.cache.SpringDataRedisApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-01-08T15:10:02.722+05:30  INFO 19432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-08T15:10:02.723+05:30  INFO 19432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-08T15:10:02.783+05:30  INFO 19432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-01-08T15:10:03.159+05:30  INFO 19432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-08T15:10:03.160+05:30  INFO 19432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-08T15:10:03.393+05:30  INFO 19432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 232 ms. Found 1 Redis repository interface.
+2024-01-08T15:10:04.615+05:30  INFO 19432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2024-01-08T15:10:04.641+05:30  INFO 19432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-08T15:10:04.642+05:30  INFO 19432 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-01-08T15:10:04.750+05:30  INFO 19432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-08T15:10:04.751+05:30  INFO 19432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4081 ms
+2024-01-08T15:10:06.387+05:30  INFO 19432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path ''
+2024-01-08T15:10:06.401+05:30  INFO 19432 --- [main] c.s.cache.SpringDataRedisApplication     : Started SpringDataRedisApplication in 6.56 seconds (process running for 7.473)
+2024-01-08T15:10:14.357+05:30  INFO 19432 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-08T15:10:14.357+05:30  INFO 19432 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-08T15:10:14.359+05:30  INFO 19432 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-01-08T15:10:14.429+05:30  INFO 19432 --- [http-nio-8086-exec-2] c.s.cache.services.CustomerServiceImpl   : CustomerServiceImpl::deleteCustomer() talking to DB
